@@ -1,0 +1,21 @@
+{
+  "name": "otaku-anime-bot",
+  "version": "1.0.0",
+  "description": "★ OTAKU ANIME BOT ★ — Bot Telegram + WhatsApp (Baileys) pour chaînes et groupes otaku, by Mr Kira Tech",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.3.2",
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.33.4"
+  }
+}
